@@ -666,6 +666,10 @@ class admin_controller
 		$allowed_extensions[] = 'PPTX';
 		$allowed_extensions[] = 'pdf';
 		$allowed_extensions[] = 'PDF';
+		$allowed_extensions[] = 'xml';
+		$allowed_extensions[] = 'XML';
+		$allowed_extensions[] = 'odt';
+		$allowed_extensions[] = 'ODT';
 		// Real Media files
 		$allowed_extensions[] = 'ram';
 		$allowed_extensions[] = 'RAM';
@@ -704,6 +708,8 @@ class admin_controller
 		$allowed_extensions[] = 'TIF';
 		$allowed_extensions[] = 'tiff';
 		$allowed_extensions[] = 'TIFF';
+		$allowed_extensions[] = 'tga';
+		$allowed_extensions[] = 'TGA';
 
 		// Check if categories exists
 		$sql = 'SELECT COUNT(cat_id) AS total_cats
